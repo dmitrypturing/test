@@ -1,0 +1,15 @@
+# binaries downloaded by `transcribe.py --setup`
+bin/*
+!bin/README.md
+
+# intermediate audio of an interrupted run (resumes on the next run)
+.*.work/
+*.part
+
+# recordings and their transcripts are personal data — do not commit them by default.
+# Remove these lines if you *want* the repository to hold them.
+[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]/
+
+__pycache__/
+.DS_Store
+Thumbs.db
